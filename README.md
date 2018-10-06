@@ -5,6 +5,7 @@ Different "exec" PHP commands for download, zip, unzip and directory permission.
 First check "exec" funcation anable or not using below code. Becuase some server disabled.
 
 ```php
-if(exec('echo EXEC') == 'EXEC'){
+if(exec('echo EXEC') == 'EXEC')
+{
     echo 'exec works';
 }
