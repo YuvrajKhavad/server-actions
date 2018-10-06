@@ -9,5 +9,5 @@ if(exec('echo EXEC') == 'EXEC')
 {
     echo 'exec works';
 }
-```php
+php```
 # Full free to send your pull request
