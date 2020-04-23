@@ -11,10 +11,10 @@ exec("wget http://website.com/zipName.zip");
 //****************
 
 //3.1 for all file of root folder
-exec('zip -r zipName.zip *')
+exec('zip -r zipName.zip *');
 
 //3.2 for particular folder
-exec('zip -r zipName.zip FOLDER-NAME')
+exec('zip -r zipName.zip FOLDER-NAME');
 
 //4 Code for unzip
 exec("unzip zipName.zip -d ./");
